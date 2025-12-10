@@ -19,9 +19,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/ROS/workspace/src/industrial_core/industrial_robot_client/include"
+  "/home/ROS/workspace/devel/include"
   "/home/ROS/workspace/src/industrial_core/industrial_utils/include"
   "/home/ROS/workspace/src/industrial_core/simple_message/include"
-  "/home/ROS/workspace/devel_isolated/industrial_msgs/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

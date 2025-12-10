@@ -64,7 +64,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhiwin_driver_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhiwin_driver_plugin.so"
-         OLD_RPATH "/opt/ros/noetic/lib:/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/lib:"
+         OLD_RPATH "/opt/ros/noetic/lib:/home/ROS/workspace/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhiwin_driver_plugin.so")
@@ -87,7 +87,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hiwin_driver/hiwin_driver_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hiwin_driver/hiwin_driver_node"
-         OLD_RPATH "/opt/ros/noetic/lib:/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/lib:"
+         OLD_RPATH "/opt/ros/noetic/lib:/home/ROS/workspace/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hiwin_driver/hiwin_driver_node")

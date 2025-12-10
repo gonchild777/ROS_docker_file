@@ -106,7 +106,7 @@ hiwin_driver_plugin_EXTERNAL_OBJECTS =
 /home/ROS/workspace/devel/lib/libhiwin_driver_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
 /home/ROS/workspace/devel/lib/libhiwin_driver_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
 /home/ROS/workspace/devel/lib/libhiwin_driver_plugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/ROS/workspace/devel/lib/libhiwin_driver_plugin.so: /home/ROS/workspace/devel_isolated/hiwin_robot_client_library/lib/libhrsdk.so
+/home/ROS/workspace/devel/lib/libhiwin_driver_plugin.so: /home/ROS/workspace/devel/lib/libhrsdk.so
 /home/ROS/workspace/devel/lib/libhiwin_driver_plugin.so: hiwin_driver/CMakeFiles/hiwin_driver_plugin.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ROS/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/ROS/workspace/devel/lib/libhiwin_driver_plugin.so"
 	cd /home/ROS/workspace/build/hiwin_driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hiwin_driver_plugin.dir/link.txt --verbose=$(VERBOSE)

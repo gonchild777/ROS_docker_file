@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC   -shared -Wl,-soname,libhrsdk.so -o libhrsdk.so CMakeFiles/hrsdk.dir/src/socket/tcp_client.cpp.o CMakeFiles/hrsdk.dir/src/hiwin_driver.cpp.o CMakeFiles/hrsdk.dir/src/commander.cpp.o 

@@ -1003,8 +1003,8 @@ industrial_core/simple_message/CMakeFiles/simple_message_float64.dir/src/ping_me
 industrial_core/simple_message/CMakeFiles/simple_message_float64.dir/src/ping_message.cpp.o: /opt/ros/noetic/include/xmlrpcpp/XmlRpcDecl.h
 industrial_core/simple_message/CMakeFiles/simple_message_float64.dir/src/ping_message.cpp.o: /opt/ros/noetic/include/xmlrpcpp/XmlRpcValue.h
 
-industrial_core/simple_message/CMakeFiles/simple_message_float64.dir/src/robot_status.cpp.o: /home/ROS/workspace/devel_isolated/industrial_msgs/include/industrial_msgs/RobotMode.h
-industrial_core/simple_message/CMakeFiles/simple_message_float64.dir/src/robot_status.cpp.o: /home/ROS/workspace/devel_isolated/industrial_msgs/include/industrial_msgs/TriState.h
+industrial_core/simple_message/CMakeFiles/simple_message_float64.dir/src/robot_status.cpp.o: /home/ROS/workspace/devel/include/industrial_msgs/RobotMode.h
+industrial_core/simple_message/CMakeFiles/simple_message_float64.dir/src/robot_status.cpp.o: /home/ROS/workspace/devel/include/industrial_msgs/TriState.h
 industrial_core/simple_message/CMakeFiles/simple_message_float64.dir/src/robot_status.cpp.o: /home/ROS/workspace/src/industrial_core/simple_message/include/simple_message/byte_array.h
 industrial_core/simple_message/CMakeFiles/simple_message_float64.dir/src/robot_status.cpp.o: /home/ROS/workspace/src/industrial_core/simple_message/include/simple_message/log_wrapper.h
 industrial_core/simple_message/CMakeFiles/simple_message_float64.dir/src/robot_status.cpp.o: /home/ROS/workspace/src/industrial_core/simple_message/include/simple_message/robot_status.h

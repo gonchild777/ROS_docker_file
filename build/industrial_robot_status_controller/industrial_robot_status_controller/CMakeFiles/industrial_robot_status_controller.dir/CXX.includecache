@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ROS/workspace/devel_isolated/industrial_msgs/include/industrial_msgs/RobotMode.h
+/home/ROS/workspace/devel/include/industrial_msgs/RobotMode.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ROS/workspace/devel_isolated/industrial_msgs/include/industrial_msgs/RobotStatus.h
+/home/ROS/workspace/devel/include/industrial_msgs/RobotStatus.h
 string
 -
 vector
@@ -52,7 +52,7 @@ industrial_msgs/TriState.h
 industrial_msgs/TriState.h
 -
 
-/home/ROS/workspace/devel_isolated/industrial_msgs/include/industrial_msgs/TriState.h
+/home/ROS/workspace/devel/include/industrial_msgs/TriState.h
 string
 -
 vector

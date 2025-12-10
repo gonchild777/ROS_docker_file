@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = r'/home/ROS/workspace/devel_isolated/industrial_robot_client;/home/ROS/workspace/devel_isolated/simple_message;/home/ROS/workspace/devel_isolated/ros_tcp_endpoint;/home/ROS/workspace/devel_isolated/hiwin_driver;/home/ROS/workspace/devel_isolated/pass_through_controllers;/home/ROS/workspace/devel_isolated/my_hiwin_pkg;/home/ROS/workspace/devel_isolated/industrial_utils;/home/ROS/workspace/devel_isolated/industrial_trajectory_filters;/home/ROS/workspace/devel_isolated/industrial_robot_status_controller;/home/ROS/workspace/devel_isolated/industrial_robot_status_interface;/home/ROS/workspace/devel_isolated/industrial_robot_simulator;/home/ROS/workspace/devel_isolated/industrial_msgs;/home/ROS/workspace/devel_isolated/industrial_deprecated;/home/ROS/workspace/devel_isolated/industrial_core;/home/ROS/workspace/devel_isolated/hiwin_robot_client_library;/home/ROS/workspace/devel_isolated/hiwin_ra610_1476_moveit_config;/home/ROS/workspace/devel_isolated/hiwin_description;/home/ROS/workspace/devel_isolated/custom_msgs;/home/ROS/workspace/devel;/opt/ros/noetic'.split(';')
+            CMAKE_PREFIX_PATH = r'/home/ROS/workspace/devel;/opt/ros/noetic'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []

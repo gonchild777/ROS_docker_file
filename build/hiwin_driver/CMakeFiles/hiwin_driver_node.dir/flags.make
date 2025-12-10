@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"hiwin_driver\"
 
-CXX_INCLUDES = -I/home/ROS/workspace/src/hiwin_driver/include -I/home/ROS/workspace/src/industrial_robot_status_controller/industrial_robot_status_interface/include -I/home/ROS/workspace/src/hiwin_ros/passthrough_controllers/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /home/ROS/workspace/devel_isolated/hiwin_robot_client_library/include 
+CXX_INCLUDES = -I/home/ROS/workspace/src/hiwin_driver/include -I/home/ROS/workspace/src/industrial_robot_status_controller/industrial_robot_status_interface/include -I/home/ROS/workspace/src/hiwin_ros/passthrough_controllers/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /home/ROS/workspace/devel/include 
 

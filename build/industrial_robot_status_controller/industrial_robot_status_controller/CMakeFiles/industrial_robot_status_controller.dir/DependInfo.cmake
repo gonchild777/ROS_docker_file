@@ -19,8 +19,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/ROS/workspace/src/industrial_robot_status_controller/industrial_robot_status_controller/include"
+  "/home/ROS/workspace/devel/include"
   "/home/ROS/workspace/src/industrial_robot_status_controller/industrial_robot_status_interface/include"
-  "/home/ROS/workspace/devel_isolated/industrial_msgs/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

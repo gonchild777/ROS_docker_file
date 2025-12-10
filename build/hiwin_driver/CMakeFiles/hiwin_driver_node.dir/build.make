@@ -121,7 +121,7 @@ hiwin_driver_node_EXTERNAL_OBJECTS =
 /home/ROS/workspace/devel/lib/hiwin_driver/hiwin_driver_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
 /home/ROS/workspace/devel/lib/hiwin_driver/hiwin_driver_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
 /home/ROS/workspace/devel/lib/hiwin_driver/hiwin_driver_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/ROS/workspace/devel/lib/hiwin_driver/hiwin_driver_node: /home/ROS/workspace/devel_isolated/hiwin_robot_client_library/lib/libhrsdk.so
+/home/ROS/workspace/devel/lib/hiwin_driver/hiwin_driver_node: /home/ROS/workspace/devel/lib/libhrsdk.so
 /home/ROS/workspace/devel/lib/hiwin_driver/hiwin_driver_node: hiwin_driver/CMakeFiles/hiwin_driver_node.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ROS/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/ROS/workspace/devel/lib/hiwin_driver/hiwin_driver_node"
 	cd /home/ROS/workspace/build/hiwin_driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hiwin_driver_node.dir/link.txt --verbose=$(VERBOSE)

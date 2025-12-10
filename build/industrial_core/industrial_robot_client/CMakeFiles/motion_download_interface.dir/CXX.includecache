@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ROS/workspace/devel_isolated/industrial_msgs/include/industrial_msgs/CmdJointTrajectory.h
+/home/ROS/workspace/devel/include/industrial_msgs/CmdJointTrajectory.h
 ros/service_traits.h
 -
 industrial_msgs/CmdJointTrajectoryRequest.h
@@ -14,7 +14,7 @@ industrial_msgs/CmdJointTrajectoryRequest.h
 industrial_msgs/CmdJointTrajectoryResponse.h
 -
 
-/home/ROS/workspace/devel_isolated/industrial_msgs/include/industrial_msgs/CmdJointTrajectoryRequest.h
+/home/ROS/workspace/devel/include/industrial_msgs/CmdJointTrajectoryRequest.h
 string
 -
 vector
@@ -32,7 +32,7 @@ ros/message_operations.h
 trajectory_msgs/JointTrajectory.h
 -
 
-/home/ROS/workspace/devel_isolated/industrial_msgs/include/industrial_msgs/CmdJointTrajectoryResponse.h
+/home/ROS/workspace/devel/include/industrial_msgs/CmdJointTrajectoryResponse.h
 string
 -
 vector
@@ -50,7 +50,7 @@ ros/message_operations.h
 industrial_msgs/ServiceReturnCode.h
 -
 
-/home/ROS/workspace/devel_isolated/industrial_msgs/include/industrial_msgs/ServiceReturnCode.h
+/home/ROS/workspace/devel/include/industrial_msgs/ServiceReturnCode.h
 string
 -
 vector
@@ -66,7 +66,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ROS/workspace/devel_isolated/industrial_msgs/include/industrial_msgs/StopMotion.h
+/home/ROS/workspace/devel/include/industrial_msgs/StopMotion.h
 ros/service_traits.h
 -
 industrial_msgs/StopMotionRequest.h
@@ -74,7 +74,7 @@ industrial_msgs/StopMotionRequest.h
 industrial_msgs/StopMotionResponse.h
 -
 
-/home/ROS/workspace/devel_isolated/industrial_msgs/include/industrial_msgs/StopMotionRequest.h
+/home/ROS/workspace/devel/include/industrial_msgs/StopMotionRequest.h
 string
 -
 vector
@@ -90,7 +90,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ROS/workspace/devel_isolated/industrial_msgs/include/industrial_msgs/StopMotionResponse.h
+/home/ROS/workspace/devel/include/industrial_msgs/StopMotionResponse.h
 string
 -
 vector

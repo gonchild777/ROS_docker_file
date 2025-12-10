@@ -156,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ROS/workspace/devel/lib;/home/ROS/workspace/devel_isolated/industrial_robot_client/lib;/home/ROS/workspace/devel_isolated/simple_message/lib;/home/ROS/workspace/devel_isolated/ros_tcp_endpoint/lib;/home/ROS/workspace/devel_isolated/hiwin_driver/lib;/home/ROS/workspace/devel_isolated/pass_through_controllers/lib;/home/ROS/workspace/devel_isolated/my_hiwin_pkg/lib;/home/ROS/workspace/devel_isolated/industrial_utils/lib;/home/ROS/workspace/devel_isolated/industrial_trajectory_filters/lib;/home/ROS/workspace/devel_isolated/industrial_robot_status_controller/lib;/home/ROS/workspace/devel_isolated/industrial_robot_status_interface/lib;/home/ROS/workspace/devel_isolated/industrial_robot_simulator/lib;/home/ROS/workspace/devel_isolated/industrial_msgs/lib;/home/ROS/workspace/devel_isolated/industrial_deprecated/lib;/home/ROS/workspace/devel_isolated/industrial_core/lib;/home/ROS/workspace/devel_isolated/hiwin_ra610_1476_moveit_config/lib;/home/ROS/workspace/devel_isolated/hiwin_description/lib;/home/ROS/workspace/devel_isolated/custom_msgs/lib;/home/ROS/workspace/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/ROS/workspace/devel/lib;/home/ROS/workspace/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

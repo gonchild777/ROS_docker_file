@@ -1,8 +1,0 @@
-prefix=/home/ROS/workspace/devel_isolated/hiwin_ra610_1476_moveit_config
-
-Name: hiwin_ra610_1476_moveit_config
-Description: Description of hiwin_ra610_1476_moveit_config
-Version: 0.3.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

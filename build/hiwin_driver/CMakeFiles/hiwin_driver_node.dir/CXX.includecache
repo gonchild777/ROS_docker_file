@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/include/hiwin_robot_client_library/commander.hpp
+/home/ROS/workspace/devel/include/hiwin_robot_client_library/commander.hpp
 vector
 -
 hiwin_robot_client_library/socket/tcp_client.hpp
-/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/include/hiwin_robot_client_library/hiwin_robot_client_library/socket/tcp_client.hpp
+/home/ROS/workspace/devel/include/hiwin_robot_client_library/hiwin_robot_client_library/socket/tcp_client.hpp
 
-/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/include/hiwin_robot_client_library/event_cb.hpp
+/home/ROS/workspace/devel/include/hiwin_robot_client_library/event_cb.hpp
 hiwin_robot_client_library/socket/tcp_client.hpp
 -
 
-/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/include/hiwin_robot_client_library/file_client.hpp
+/home/ROS/workspace/devel/include/hiwin_robot_client_library/file_client.hpp
 hiwin_robot_client_library/socket/tcp_client.hpp
 -
 
-/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/include/hiwin_robot_client_library/hiwin_driver.hpp
+/home/ROS/workspace/devel/include/hiwin_robot_client_library/hiwin_driver.hpp
 string
 -
 vector
@@ -36,7 +36,7 @@ hiwin_robot_client_library/event_cb.hpp
 hiwin_robot_client_library/file_client.hpp
 -
 
-/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/include/hiwin_robot_client_library/socket/tcp_client.hpp
+/home/ROS/workspace/devel/include/hiwin_robot_client_library/socket/tcp_client.hpp
 netdb.h
 -
 sys/socket.h

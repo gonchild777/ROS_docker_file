@@ -550,7 +550,7 @@ hiwin_ra610_1476_moveit_config_BINARY_DIR:STATIC=/home/ROS/workspace/build/hiwin
 hiwin_ra610_1476_moveit_config_SOURCE_DIR:STATIC=/home/ROS/workspace/src/hiwin_ros/hiwin_ra610_1476_moveit_config
 
 //The directory containing a CMake configuration file for hiwin_robot_client_library.
-hiwin_robot_client_library_DIR:PATH=/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/lib/cmake/hiwin_robot_client_library
+hiwin_robot_client_library_DIR:PATH=/home/ROS/workspace/devel/lib/cmake/hiwin_robot_client_library
 
 //Value Computed by CMake
 industrial_core_BINARY_DIR:STATIC=/home/ROS/workspace/build/industrial_core/industrial_core
@@ -568,7 +568,7 @@ industrial_deprecated_SOURCE_DIR:STATIC=/home/ROS/workspace/src/industrial_core/
 industrial_msgs_BINARY_DIR:STATIC=/home/ROS/workspace/build/industrial_core/industrial_msgs
 
 //The directory containing a CMake configuration file for industrial_msgs.
-industrial_msgs_DIR:PATH=/home/ROS/workspace/devel_isolated/industrial_msgs/share/industrial_msgs/cmake
+industrial_msgs_DIR:PATH=/home/ROS/workspace/devel/share/industrial_msgs/cmake
 
 //Value Computed by CMake
 industrial_msgs_SOURCE_DIR:STATIC=/home/ROS/workspace/src/industrial_core/industrial_msgs
@@ -604,7 +604,7 @@ industrial_robot_status_controller_SOURCE_DIR:STATIC=/home/ROS/workspace/src/ind
 industrial_robot_status_interface_BINARY_DIR:STATIC=/home/ROS/workspace/build/industrial_robot_status_controller/industrial_robot_status_interface
 
 //The directory containing a CMake configuration file for industrial_robot_status_interface.
-industrial_robot_status_interface_DIR:PATH=/home/ROS/workspace/devel_isolated/industrial_robot_status_interface/share/industrial_robot_status_interface/cmake
+industrial_robot_status_interface_DIR:PATH=/home/ROS/workspace/devel/share/industrial_robot_status_interface/cmake
 
 //Value Computed by CMake
 industrial_robot_status_interface_SOURCE_DIR:STATIC=/home/ROS/workspace/src/industrial_robot_status_controller/industrial_robot_status_interface
@@ -622,7 +622,7 @@ industrial_trajectory_filters_SOURCE_DIR:STATIC=/home/ROS/workspace/src/industri
 industrial_utils_BINARY_DIR:STATIC=/home/ROS/workspace/build/industrial_core/industrial_utils
 
 //The directory containing a CMake configuration file for industrial_utils.
-industrial_utils_DIR:PATH=/home/ROS/workspace/devel_isolated/industrial_utils/share/industrial_utils/cmake
+industrial_utils_DIR:PATH=/home/ROS/workspace/devel/share/industrial_utils/cmake
 
 //Dependencies for the target
 industrial_utils_LIB_DEPENDS:STATIC=general;/opt/ros/noetic/lib/liburdf.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_world.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/noetic/lib/libclass_loader.so;general;/usr/lib/x86_64-linux-gnu/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/noetic/lib/libroslib.so;general;/opt/ros/noetic/lib/librospack.so;general;/usr/lib/x86_64-linux-gnu/libpython3.8.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/opt/ros/noetic/lib/librosconsole_bridge.so;general;/opt/ros/noetic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0;general;/opt/ros/noetic/lib/librosconsole.so;general;/opt/ros/noetic/lib/librosconsole_log4cxx.so;general;/opt/ros/noetic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0;general;/opt/ros/noetic/lib/libroscpp_serialization.so;general;/opt/ros/noetic/lib/libxmlrpcpp.so;general;/opt/ros/noetic/lib/librostime.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0;general;/opt/ros/noetic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;
@@ -676,7 +676,7 @@ orocos_kdl_DIR:PATH=/usr/share/orocos_kdl/cmake
 pass_through_controllers_BINARY_DIR:STATIC=/home/ROS/workspace/build/hiwin_ros/passthrough_controllers
 
 //The directory containing a CMake configuration file for pass_through_controllers.
-pass_through_controllers_DIR:PATH=/home/ROS/workspace/devel_isolated/pass_through_controllers/share/pass_through_controllers/cmake
+pass_through_controllers_DIR:PATH=/home/ROS/workspace/devel/share/pass_through_controllers/cmake
 
 //Dependencies for the target
 pass_through_controllers_LIB_DEPENDS:STATIC=general;/opt/ros/noetic/lib/libclass_loader.so;general;/usr/lib/x86_64-linux-gnu/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/noetic/lib/libroslib.so;general;/opt/ros/noetic/lib/librospack.so;general;/usr/lib/x86_64-linux-gnu/libpython3.8.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/opt/ros/noetic/lib/librealtime_tools.so;general;/opt/ros/noetic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0;general;/opt/ros/noetic/lib/librosconsole.so;general;/opt/ros/noetic/lib/librosconsole_log4cxx.so;general;/opt/ros/noetic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0;general;/opt/ros/noetic/lib/libxmlrpcpp.so;general;/opt/ros/noetic/lib/libroscpp_serialization.so;general;/opt/ros/noetic/lib/librostime.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0;general;/opt/ros/noetic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;
@@ -745,7 +745,7 @@ shape_msgs_DIR:PATH=/opt/ros/noetic/share/shape_msgs/cmake
 simple_message_BINARY_DIR:STATIC=/home/ROS/workspace/build/industrial_core/simple_message
 
 //The directory containing a CMake configuration file for simple_message.
-simple_message_DIR:PATH=/home/ROS/workspace/devel_isolated/simple_message/share/simple_message/cmake
+simple_message_DIR:PATH=/home/ROS/workspace/devel/share/simple_message/cmake
 
 //Dependencies for the target
 simple_message_LIB_DEPENDS:STATIC=general;/opt/ros/noetic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0;general;/opt/ros/noetic/lib/librosconsole.so;general;/opt/ros/noetic/lib/librosconsole_log4cxx.so;general;/opt/ros/noetic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0;general;/opt/ros/noetic/lib/libroscpp_serialization.so;general;/opt/ros/noetic/lib/libxmlrpcpp.so;general;/opt/ros/noetic/lib/librostime.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0;general;/opt/ros/noetic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;

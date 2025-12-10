@@ -12,7 +12,7 @@ try:
     from catkin.environment_cache import generate_environment_script
 except ImportError:
     # search for catkin package in all workspaces and prepend to path
-    for workspace in '/home/ROS/workspace/devel_isolated/industrial_robot_client;/home/ROS/workspace/devel_isolated/simple_message;/home/ROS/workspace/devel_isolated/ros_tcp_endpoint;/home/ROS/workspace/devel_isolated/hiwin_driver;/home/ROS/workspace/devel_isolated/pass_through_controllers;/home/ROS/workspace/devel_isolated/my_hiwin_pkg;/home/ROS/workspace/devel_isolated/industrial_utils;/home/ROS/workspace/devel_isolated/industrial_trajectory_filters;/home/ROS/workspace/devel_isolated/industrial_robot_status_controller;/home/ROS/workspace/devel_isolated/industrial_robot_status_interface;/home/ROS/workspace/devel_isolated/industrial_robot_simulator;/home/ROS/workspace/devel_isolated/industrial_msgs;/home/ROS/workspace/devel_isolated/industrial_deprecated;/home/ROS/workspace/devel_isolated/industrial_core;/home/ROS/workspace/devel_isolated/hiwin_ra610_1476_moveit_config;/home/ROS/workspace/devel_isolated/hiwin_description;/home/ROS/workspace/devel_isolated/custom_msgs;/home/ROS/workspace/devel;/opt/ros/noetic'.split(';'):
+    for workspace in '/home/ROS/workspace/devel;/opt/ros/noetic'.split(';'):
         python_path = os.path.join(workspace, 'lib/python3/dist-packages')
         if os.path.isdir(os.path.join(python_path, 'catkin')):
             sys.path.insert(0, python_path)

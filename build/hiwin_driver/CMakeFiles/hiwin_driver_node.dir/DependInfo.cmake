@@ -23,7 +23,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/ROS/workspace/src/hiwin_ros/passthrough_controllers/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/include"
+  "/home/ROS/workspace/devel/include"
   )
 
 # Targets to which this target links.
