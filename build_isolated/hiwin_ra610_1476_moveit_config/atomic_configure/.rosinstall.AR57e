@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ROS/workspace/devel_isolated/hiwin_ra610_1476_moveit_config/setup.sh

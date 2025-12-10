@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ROS/workspace/devel_isolated/my_hiwin_pkg/setup.sh

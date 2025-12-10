@@ -1,0 +1,26 @@
+hardware_control_loop:
+   loop_hz: &loop_hz 50
+
+hiwin_hardware_interface:
+   joints: &robot_joints
+     - joint_1
+     - joint_2
+     - joint_3
+     - joint_4
+     - joint_5
+     - joint_6
+
+joint_state_controller:
+   type: joint_state_controller/JointStateController
+   joints: *robot_joints
+   publish_rate: *loop_hz
+
+pass_through_joint_traj_controller:
+   type: "pass_through_controllers/JointTrajectoryController"
+   joints: *robot_joints
+   state_publish_rate: *loop_hz
+
+robot_status_controller:
+   type: industrial_robot_status_controller/IndustrialRobotStatusController
+   handle_name: industrial_robot_status_handle
+   publish_rate: 10

@@ -1,0 +1,8 @@
+prefix=/home/ROS/workspace/devel_isolated/industrial_utils
+
+Name: industrial_utils
+Description: Description of industrial_utils
+Version: 0.7.3
+Cflags: -I/home/ROS/workspace/src/industrial_core/industrial_utils/include
+Libs: -L${prefix}/lib -lindustrial_utils
+Requires: roscpp urdf

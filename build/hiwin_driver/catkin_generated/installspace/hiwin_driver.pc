@@ -1,0 +1,8 @@
+prefix=/home/ROS/workspace/install
+
+Name: hiwin_driver
+Description: Description of hiwin_driver
+Version: 0.0.0
+Cflags: -I${prefix}/include -I/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/include
+Libs: -L${prefix}/lib -lhiwin_driver_plugin /home/ROS/workspace/devel_isolated/hiwin_robot_client_library/lib/libhrsdk.so
+Requires: controller_manager hardware_interface pluginlib pass_through_controllers roscpp std_srvs

@@ -1,0 +1,10 @@
+/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/lib/libhrsdk.so
+/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/include/hiwin_robot_client_library/commander.hpp
+/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/include/hiwin_robot_client_library/socket/tcp_client.hpp
+/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/include/hiwin_robot_client_library/hiwin_driver.hpp
+/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/include/hiwin_robot_client_library/file_client.hpp
+/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/include/hiwin_robot_client_library/event_cb.hpp
+/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/lib/cmake/hiwin_robot_client_library/hrsdkTargets.cmake
+/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/lib/cmake/hiwin_robot_client_library/hrsdkTargets-noconfig.cmake
+/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/lib/cmake/hiwin_robot_client_library/hiwin_robot_client_libraryConfig.cmake
+/home/ROS/workspace/devel_isolated/hiwin_robot_client_library/lib/cmake/hiwin_robot_client_library/hiwin_robot_client_libraryConfigVersion.cmake

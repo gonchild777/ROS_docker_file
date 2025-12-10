@@ -1,0 +1,8 @@
+prefix=/home/ROS/workspace/devel
+
+Name: pass_through_controllers
+Description: Description of pass_through_controllers
+Version: 0.0.0
+Cflags: -I/home/ROS/workspace/src/hiwin_ros/passthrough_controllers/include
+Libs: -L${prefix}/lib 
+Requires: control_msgs controller_interface hardware_interface pluginlib roscpp realtime_tools trajectory_msgs

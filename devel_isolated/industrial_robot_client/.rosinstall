@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ROS/workspace/devel_isolated/industrial_robot_client/setup.sh
