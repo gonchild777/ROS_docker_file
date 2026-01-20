@@ -87,9 +87,9 @@ industrial_core/industrial_msgs/CMakeFiles/industrial_msgs_generate_messages_cpp
 
 /home/ROS/workspace/devel/include/industrial_msgs/RobotStatus.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ROS/workspace/devel/include/industrial_msgs/RobotStatus.h: /home/ROS/workspace/src/industrial_core/industrial_msgs/msg/RobotStatus.msg
-/home/ROS/workspace/devel/include/industrial_msgs/RobotStatus.h: /home/ROS/workspace/src/industrial_core/industrial_msgs/msg/RobotMode.msg
 /home/ROS/workspace/devel/include/industrial_msgs/RobotStatus.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ROS/workspace/devel/include/industrial_msgs/RobotStatus.h: /home/ROS/workspace/src/industrial_core/industrial_msgs/msg/TriState.msg
+/home/ROS/workspace/devel/include/industrial_msgs/RobotStatus.h: /home/ROS/workspace/src/industrial_core/industrial_msgs/msg/RobotMode.msg
 /home/ROS/workspace/devel/include/industrial_msgs/RobotStatus.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ROS/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from industrial_msgs/RobotStatus.msg"
 	cd /home/ROS/workspace/src/industrial_core/industrial_msgs && /home/ROS/workspace/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ROS/workspace/src/industrial_core/industrial_msgs/msg/RobotStatus.msg -Iindustrial_msgs:/home/ROS/workspace/src/industrial_core/industrial_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/noetic/share/trajectory_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p industrial_msgs -o /home/ROS/workspace/devel/include/industrial_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -108,9 +108,9 @@ industrial_core/industrial_msgs/CMakeFiles/industrial_msgs_generate_messages_cpp
 
 /home/ROS/workspace/devel/include/industrial_msgs/CmdJointTrajectory.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ROS/workspace/devel/include/industrial_msgs/CmdJointTrajectory.h: /home/ROS/workspace/src/industrial_core/industrial_msgs/srv/CmdJointTrajectory.srv
-/home/ROS/workspace/devel/include/industrial_msgs/CmdJointTrajectory.h: /opt/ros/noetic/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
 /home/ROS/workspace/devel/include/industrial_msgs/CmdJointTrajectory.h: /home/ROS/workspace/src/industrial_core/industrial_msgs/msg/ServiceReturnCode.msg
 /home/ROS/workspace/devel/include/industrial_msgs/CmdJointTrajectory.h: /opt/ros/noetic/share/trajectory_msgs/msg/JointTrajectory.msg
+/home/ROS/workspace/devel/include/industrial_msgs/CmdJointTrajectory.h: /opt/ros/noetic/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
 /home/ROS/workspace/devel/include/industrial_msgs/CmdJointTrajectory.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ROS/workspace/devel/include/industrial_msgs/CmdJointTrajectory.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/ROS/workspace/devel/include/industrial_msgs/CmdJointTrajectory.h: /opt/ros/noetic/share/gencpp/srv.h.template

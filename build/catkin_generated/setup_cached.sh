@@ -7,6 +7,6 @@
 # new environment variables
 
 # modified environment variables
-export PKG_CONFIG_PATH="/home/ROS/workspace/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export LD_LIBRARY_PATH='/home/ROS/workspace/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu'
+export PKG_CONFIG_PATH='/home/ROS/workspace/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'
 export PWD='/home/ROS/workspace/build'
-export PYTHONPATH="/home/ROS/workspace/devel/lib/python3/dist-packages:$PYTHONPATH"

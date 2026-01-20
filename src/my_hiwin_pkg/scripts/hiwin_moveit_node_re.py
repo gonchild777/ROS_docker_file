@@ -56,7 +56,7 @@ def robot_signal_callback(msg: String):
             rospy.logwarn("已經在等待 execute, 再收到 plan 忽略")
 
 
-def compute_ik_and_get_joints(p, group='manipulator', frame_id='base_link', ik_link='tool0'):
+def compute_ik_and_get_joints(p, group='manipulator', frame_id='base_link', ik_link='tcp_link'):
     try:
         rospy.loginfo("Waiting for /compute_ik service…")
         rospy.wait_for_service('/compute_ik', timeout=5.0)
@@ -67,7 +67,8 @@ def compute_ik_and_get_joints(p, group='manipulator', frame_id='base_link', ik_l
     ik_srv = rospy.ServiceProxy('/compute_ik', GetPositionIK)
     req = GetPositionIKRequest()
     req.ik_request.group_name = group
-    req.ik_request.ik_link_name = ik_link
+    # 這裡會使用傳入的 ik_link ('tcp_link')
+    req.ik_request.ik_link_name = ik_link 
     req.ik_request.pose_stamped.header.frame_id = frame_id
     req.ik_request.pose_stamped.pose.position.x = p['x']
     req.ik_request.pose_stamped.pose.position.y = p['y']
