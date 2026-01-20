@@ -5,16 +5,26 @@ import json
 from std_msgs.msg import String
 
 def publish_fixed_points(json_pub):
-    points = [
-        (-0.4992596209049225, 0.8769174218177795, 0.7969591021537781),
-        (-0.4992596209049225, 0.5, 0.1),
-        (-0.07023268938064575, 1.0, 0.9886242151260376)
+    # 完整 pose 格式：position + orientation (quaternion)
+    poses = [
+        {
+            "position": {"x": -0.4992596209049225, "y": 0.8769174218177795, "z": 0.7969591021537781},
+            "orientation": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0}  # 無旋轉
+        },
+        {
+            "position": {"x": -0.4992596209049225, "y": 0.5, "z": 0.1},
+            "orientation": {"x": 0.0, "y": 0.707, "z": 0.0, "w": 0.707}  # 繞 Y 軸 90 度
+        },
+        {
+            "position": {"x": -0.07023268938064575, "y": 1.0, "z": 0.9886242151260376},
+            "orientation": {"x": 1.0, "y": 0.0, "z": 0.0, "w": 0.0}  # 繞 X 軸 180 度
+        }
     ]
-    data = {"points": [{"x": x, "y": y, "z": z} for (x, y, z) in points]}
+    data = {"points": poses}
     json_str = json.dumps(data)
     msg = String(data=json_str)
     json_pub.publish(msg)
-    rospy.loginfo("已送出 %d 個點 (固定座標，JSON)", len(points))
+    rospy.loginfo("已送出 %d 個 pose（含姿態，JSON）", len(poses))
 
 def publish_robot_signal(signal_pub, signal):
     msg = String(data=signal)

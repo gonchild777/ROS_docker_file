@@ -70,10 +70,18 @@ def compute_ik_and_get_joints(p, group='manipulator', frame_id='base_link', ik_l
     # 這裡會使用傳入的 ik_link ('tcp_link')
     req.ik_request.ik_link_name = ik_link 
     req.ik_request.pose_stamped.header.frame_id = frame_id
-    req.ik_request.pose_stamped.pose.position.x = p['x']
-    req.ik_request.pose_stamped.pose.position.y = p['y']
-    req.ik_request.pose_stamped.pose.position.z = p['z']
-    req.ik_request.pose_stamped.pose.orientation.w = 1.0
+    
+    # Position
+    req.ik_request.pose_stamped.pose.position.x = p['position']['x']
+    req.ik_request.pose_stamped.pose.position.y = p['position']['y']
+    req.ik_request.pose_stamped.pose.position.z = p['position']['z']
+    
+    # Orientation (Quaternion from Unity)
+    req.ik_request.pose_stamped.pose.orientation.x = p['orientation']['x']
+    req.ik_request.pose_stamped.pose.orientation.y = p['orientation']['y']
+    req.ik_request.pose_stamped.pose.orientation.z = p['orientation']['z']
+    req.ik_request.pose_stamped.pose.orientation.w = p['orientation']['w']
+    
     req.ik_request.timeout = rospy.Duration(1.0)
 
     resp = ik_srv(req)
@@ -95,13 +103,20 @@ def json_callback(msg: String):
         rospy.logerr("Cannot decode points JSON: %s", e)
         return
 
-    rospy.loginfo("收到 %d 筆目標點，開始 IK 計算…", len(pts))
+    rospy.loginfo("收到 %d 筆目標點（含姿態），開始 IK 計算…", len(pts))
     joints_list = []
     for i, p in enumerate(pts):
+        # 驗證 pose 格式
+        if 'position' not in p or 'orientation' not in p:
+            rospy.logerr("Point %d 缺少 position 或 orientation: %s", i, p)
+            json_pub_tmp.publish(json.dumps({'success': False, 'failed_index': i, 'error': 'missing_pose_data'}))
+            reset_all()
+            return
+        
         js = compute_ik_and_get_joints(p)
         if js is None:
             rospy.logwarn("Point %d IK failed: %s", i, p)
-            json_pub_tmp.publish(json.dumps({'success': False, 'failed_index': i}))
+            json_pub_tmp.publish(json.dumps({'success': False, 'failed_index': i, 'error': 'ik_failed'}))
             reset_all()
             return
         joints_list.append({'name': js.name, 'position': js.position})
